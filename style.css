@@ -1,0 +1,31 @@
+
+textarea {
+  width: 50%;
+  height: 80%;
+  margin: auto;
+  background: #f4f4f9;
+  outline: none;
+  font-family: Courier, sans-serif;
+  font-size: 14px;
+}
+
+iframe  {
+
+  position: absolute;
+  width: 50%;
+  height: 80%;
+}
+
+.button{
+  background-color: green;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.button p{
+  padding: 6px;
+}.button:hover{
+  cursor: pointer;
+}
