@@ -1,12 +1,10 @@
-document.getElementById("run").onclick = function() {compile()}
-
-
-function compile() {
-  var html = document.getElementById("html");
-  
+var html = document.getElementById("html");
   var code = document.getElementById("code").contentWindow.document;
+ var button = document.getElementById("run")
+function compile() {
+  
 
-  document.body.onclick = function() {
+  button.onclick = function() {
     code.open();
     code.writeln(
       html.value 
@@ -14,4 +12,5 @@ function compile() {
     );
     code.close();
   };
+  
 }
