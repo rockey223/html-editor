@@ -4,7 +4,7 @@ var html = document.getElementById("html");
 function compile() {
   
 
-  button.onclick = function() {
+  button.onclick = function(compile) {
     code.open();
     code.writeln(
       html.value 
